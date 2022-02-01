@@ -1,0 +1,47 @@
+#treatment{
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+
+#treatment .acupuncture img{
+    border-radius: 10px;
+    box-shadow: 0 3px 3px 3px rgb(60 64 67 / 30%), 0 1px 6px 2px rgb(60 64 67 / 15%);
+
+}
+
+#treatment .img-layout img{
+    width: 200px;
+    height: 200px;
+    bottom: -50px;
+    left: -100px;
+    position: relative;
+    border: 5px solid transparent;
+}
+
+#treatment .content{
+    padding-right: 100px;
+    text-align: justify;
+}
+
+#treatment .title{
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif !important;
+    margin-top: 30px;
+}
+
+#treatment .sub-title{
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #3c843b;
+}
+
+#treatment .content .details{
+    margin-top: 3rem;
+}
+
+#treatment .content .details .time{
+    font-weight: 700;
+    font-size: 18px;
+}

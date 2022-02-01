@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+
+#gallery .col-sm-12.tab{
+  justify-content: center;
+  display: flex;
+}
+
+#gallery .gallery_filter_tab ul{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+
+}
+
+#gallery .gallery_filter_tab ul a{
+    padding: 5px 15px;
+    border: 1px solid #045300;
+    color: #045300;
+    background-color: transparent;
+    margin: 20px 5px;
+    border-radius: 50px;
+    display: inline-block;
+    font-weight: 600;
+}
+
+#gallery .gallery_filter_tab ul a:hover, #gallery .gallery_filter_tab ul a.active{
+    background-color: #045300;
+    color: #fff;
+}
+#gallery img{
+  width: 100%;
+  transition-duration: .3s;
+  max-width: 100%;
+  display:block;
+  overflow:hidden;
+  cursor:pointer;
+  /* padding-right: 20px; */
+  border-radius: 15px !important;
+  /* border-top-left-radius: 15px;
+    border-top-right-radius: 15px !important;
+    border-bottom-right-radius: 15px !important;
+    border-bottom-left-radius: 15px; */
+    border-collapse: separate; 
+
+}
+#gallery .title{
+  position:relative;
+  display:block;
+  cursor:pointer;
+  margin-top: 80px;
+  text-align: center;
+  /* margin-bottom: 30px; */
+  /* left: 50%;
+  margin-right: -50%; */
+  /* transform: translate(-50%, -50%); */
+  font-weight: bold;
+  font-size: 1.6em;
+  text-shadow: 1px 5px 10px #045300;
+  transition-duration: .3s;
+  color: #045300;
+}
+
+#gallery .container{
+  padding-right: 25px;
+}
+/* .text{
+  position:absolute;
+  top: 70%;
+  cursor:pointer;
+  max-width: 80%;
+  text-align:center;
+  left: 50%;
+  text-shadow: 1px 5px 10px black;
+  font-size: 1em;
+  display:none;
+  margin-right: -50%;
+  transition-duration: .3s;
+  transform: translate(-50%, -50%) 
+} */
+#gallery .container:hover img{
+  transform: scale(1.1);
+  transition-duration: .6s;
+  filter: grayscale(20%);
+  opacity: 0.9;
+}
+#gallery .container:hover span{
+  color:white;
+  display: block;
+  transition-duration: .3s;
+}
+@media only screen and (max-width: 900px) {
+    #gallery.container {
+        width: calc(50% - 6px);
+    }
+}
+@media only screen and (max-width: 400px) {
+    #gallery .container {
+        width: 100%;
+    }
+}

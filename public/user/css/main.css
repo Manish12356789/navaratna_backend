@@ -1,0 +1,35 @@
+@import url(../vendor/css/contact.css);
+@import url(../vendor/css/facilities.css);
+@import url(../vendor/css/gallery.css);
+@import url(../vendor/css/header.css);
+@import url(../vendor/css/panchakarma.css);
+@import url(../vendor/css/services.css);
+@import url(../vendor/css/style.css);
+@import url(../vendor/css/treatment.css);
+
+
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+    text-overflow: ellipsis;
+    -webkit-text-size-adjust: 100%;
+
+}
+
+.color-defult {
+    color: #045300;
+}
+
+.bg-defult {
+    background: #00ac7a;
+}
+
+i.far, i.fas{
+    font-size: 1.2rem;
+}
+
+input:focus, button:focus, select:focus, .btn-primary:focus, .form-control:focus, a:focus, .btn:focus, .btn-link:focus{
+    box-shadow: none;
+} 

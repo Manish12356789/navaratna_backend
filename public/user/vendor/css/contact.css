@@ -1,0 +1,171 @@
+#about{
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+#about .img-layout{
+    background-image: url(../images/about_us.png);
+    background-size: cover;
+    background-color: #cdd5c2;
+    height: 300px;
+    border-radius: 10px;
+}
+
+/* #about .img-layout img{
+    width: 200px;
+    height: 200px;
+    bottom: -50px;
+    left: -100px;
+    position: relative;
+    border: 5px solid transparent;
+} */
+
+#about .content{
+    padding-right: 100px;
+    text-align: justify;
+}
+
+#about .title{
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif !important;
+    text-align: center;
+    margin-top: 30px;
+}
+
+#about .sub-title{
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 20px;
+    color: #3c843b;
+}
+
+#about .acupuncture img{
+    border-radius: 10px;
+    box-shadow: 0 3px 3px 3px rgb(60 64 67 / 30%), 0 1px 6px 2px rgb(60 64 67 / 15%);
+
+}
+
+#contact{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#contact .icon-box{
+    text-align: center;
+}
+
+#contact .icon-box .icon{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+#contact .icon-box .icon i{
+    color: #fff;
+}
+
+#contact .icon-box .icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #3c843b;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+#contact .icon-box .text {
+    width: 100%;
+}
+
+#contact .icon-box .text span {
+    font-weight: 700;
+    color: #000;
+}
+
+#contact form{
+    margin-top: 30px;
+}
+
+#contact .form-wrapper{
+    /* border: 1px solid #cdd5c2; */
+    box-shadow: 0 4px 8px 6px rgb(60 64 67 / 30%), 0 1px 6px 2px rgb(60 64 67 / 15%);
+    padding: 50px;
+    padding-top: 10px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+#contact .form-wrapper .title{
+    text-align: center;
+    font-weight: 700;
+    margin-bottom: 30px;
+    color: #3c843b;
+
+}
+
+#contact form label{
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+#contact form input, #contact form textarea{
+    border-radius: 5px;
+    background-color: #feffec;
+    /* border-top: 1px solid #f7fab3;
+    border-left: 1px solid #f7fab3;
+    border-right: 1px solid #f7fab3; */
+    border-bottom: 2px solid #3c843b;
+}
+
+#contact form input:focus, #contact form textarea:focus{
+    border-radius: 5px;
+    background-color: transparent;
+    /* border-top: 1px solid #f7fab3;
+    border-left: 1px solid #f7fab3;
+    border-right: 1px solid #f7fab3; */
+    border: 2px solid #3c843b;
+}
+
+#contact form textarea{
+    resize: none;
+}
+
+#contact form input:focus::placeholder, #contact form textarea:focus::placeholder{
+    background-color: transparent;
+}
+
+#contact form button{
+    width: 100%;
+    border: 2px solid #3c843b;
+    background-color: transparent;
+    margin-top: 30px;
+    /* margin-bottom: 30px; */
+    border-radius: 30px;
+    color: #3c843b;
+    font-weight: 700;
+}
+
+#contact form button:hover{
+    background-color: #3c843b;
+    color: #fff;
+}
+    /*********************contact_end****************/
+    
+    
+    @media screen and (max-width : 767px){
+    #contact{
+     text-align:center; 
+      }
+    }
+    
+    @media (min-width:768px) and (max-width:991px) {
+    
+     }
+    @media (min-width:992px) and (max-width:1200px) {
+    
+     }
+    @media (min-width:1201px) and (max-width:1345px) {
+    
+     }
